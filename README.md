@@ -62,5 +62,5 @@ git pull (origin master)
 2. 点进settings选项，往下滑
 3. Git Pages，将 source下的none改成master branch，会给你一个链接，如下：
 ![git pages](./imgs/gitpages.png)
-4.上图中的链接是给到了仓库根目录，具体想显示哪个页面，再根据相对路径找到对应的页面
+4. 上图中的链接是给到了仓库根目录，具体想显示哪个页面，再根据相对路径找到对应的页面
 如 https://hl1115.github.io/git/index.html
