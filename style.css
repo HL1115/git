@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+}
+/* 头部 */
+.header-wrap{
+    height: 45px;
+    background-color: #333;
+}
+.header{
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+.header p{
+    float: right;
+    color: #ffffff;
+	/* 上节课写的时候，直接写的line-height: 45px;
+	这样p标签的高度变成了47px，把下面的导航顶下去了，咱们给.header加了overflow: hidden;这样可以解决
+	其实咱们直接给p标签加上height: 45px;也可以，以前咱们都是这样写的，高度45px，行高45px，
+	这样保证p标签的高度永远是45px，昨天没有写height */
+    height: 45px;
+    line-height: 45px;
+}
+.header span{
+    font-size: 20px;
+    margin-right: 28px;
+}
+.header img{
+    margin:10px 12px 0 0; 
+    float: left;
+}
+.header a{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 14px 0;
+}
+/* 导航 */
+.nav{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.nav img{
+    margin-top: 12px;
+}
+.nav p{
+    float: right;
+    line-height: 80px;
+}
+.nav p a{
+    color: #000;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 76px;
+}
+.nav p a:hover{
+    color: #e8420a;
+    border-bottom: 4px solid #e8420a;
+}
+/* 主体部分 */
+.main-wrap{
+    height: 724px;
+    background-color: #f5f5f5;
+}
+.main{
+    width: 1200px;
+    height: 724px;
+    margin: 0 auto;
+}
+.crumb{
+    line-height: 97px;
+}
+.crumb a{
+    font-size: 18px;
+    color: #333;
+}
+.hotel{
+    height: 545px;
+    padding: 15px;
+    background-color: #fff;
+}
+.hotel-left{
+    float: left;
+}
+.simg li{
+    float: left;
+    margin-left: 4px;
+}
+.simg li:first-child{
+    margin-left: 0;
+}
+.hotel-right{
+    width: 465px;
+    float: right;
+}
+.hotel-right h3{
+    font-size: 30px;
+    line-height: 94px;
+}
+.hotel-right p{
+    font-size: 20px;
+    line-height: 40px;
+    color: #666;
+}
+/* 右侧固定定位部分 */
+.fix{
+    width: 47px;
+    height: 390px;
+    position: fixed;
+    right: 0;
+    top: 130px;
+}
+.fix li{
+    background-color: #1c5080;
+    height: 47px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.fix img{
+    margin-top: 9px;
+}
+.fix li:last-child{
+    height: 150px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #e8420a;
+}
