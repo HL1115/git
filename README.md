@@ -29,7 +29,8 @@ git status
 ```
 6. 将工作区的更改提交到暂存区
 ```
-git add/rm file
+git add fileName  添加单个文件到暂存区
+git add .    添加所有修改的文件到暂存区
 ```
 7. 将暂存区的更改提交到本地仓库
 ```
