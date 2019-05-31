@@ -27,10 +27,6 @@ a{
 .header p{
     float: right;
     color: #ffffff;
-	/* 上节课写的时候，直接写的line-height: 45px;
-	这样p标签的高度变成了47px，把下面的导航顶下去了，咱们给.header加了overflow: hidden;这样可以解决
-	其实咱们直接给p标签加上height: 45px;也可以，以前咱们都是这样写的，高度45px，行高45px，
-	这样保证p标签的高度永远是45px，昨天没有写height */
     height: 45px;
     line-height: 45px;
 }
